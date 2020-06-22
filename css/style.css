@@ -4,6 +4,7 @@ body {
     line-height: 2.49;
  }
 
+/*Inizio style Header*/
 header {
     background-color: #1abc9c;
 
@@ -45,6 +46,8 @@ header {
     background-color: transparent;
     color: #19ba9a;
 }
+
+/*Fine sTyle Header*/
 .h1 {
     display:inline-block;
 }
@@ -60,15 +63,23 @@ header {
 
 }
 
+.fit-image {
+    width: 100%;
+    object-fit: cover;
+}
+
 .container {
     text-align: center;
 }
 
+.divider-custom > .divider-light {
+    display: inline;
+}
+
 .divider-custom-line {
-    width: 100%;
     max-width:40px;
     height: 3px;
-    border-color: #2c3e50;
+    border: 1px solid white;
 }
 
 .portfolio {
@@ -135,4 +146,11 @@ footer {
     padding: 10px 10px;
     border: 1px solid white;
     border-radius: 50%;
+}
+
+#copyWrite {
+    background-color: #1a252f;
+    height: 80px;
+    text-align: center;
+    line-height: 5;
 }
