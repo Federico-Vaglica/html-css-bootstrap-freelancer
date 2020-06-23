@@ -88,6 +88,21 @@ header {
   bottom: 18px;
 }
 
+.boo_star1 .glyphicon-star {
+  font-size:35px;
+}
+
+.boo_star1::before,
+.boo_star1::after {
+  content: "";
+  width: 5em;
+  height: 3px;
+  background-color: black;
+  border-radius: 1px;
+  display: inline-block;
+  position: relative;
+  bottom: 18px;
+}
 
 .portfolio {
     align-items: center;
@@ -141,7 +156,19 @@ h3 {
     font-size: 20px;
 }
 
-.container  {
+.bottomButton  {
+  text-align: center;
+}
+
+.btn-lg {
+  background-color: inherit;
+  font-weight: bold;
+  border: 2px solid white;
+}
+
+.btn-lg:hover {
+  background-color: white;
+  color: black;
 }
 
 #contactMe {
